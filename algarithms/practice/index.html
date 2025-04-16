@@ -1,0 +1,75 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // function findMin(array) {
+      //     let min = array[0]
+      //     for (let i = 0; i < array.length; i++) {
+      //         if (min > array[i]) {
+      //             min = array[i]
+      //         }
+      //     }
+      //     return min
+      // }
+      // console.log(findMin([6,5,7,8,3]))
+
+      // function typeOf(num) {
+      //     return num % 2 === 0
+      // }
+      // console.log(typeOf(5))
+
+      const megogo = [
+        {
+          id: 1,
+          title: "megogo 1",
+        },
+        {
+          id: 2,
+          title: "megogo 2",
+        },
+        {
+          id: 3,
+          title: "megogo 3",
+        },
+      ];
+
+      const premier = [
+        {
+          id: 1,
+          title: "premier 1",
+        },
+        {
+          id: 2,
+          title: "premier 2",
+        },
+        {
+          id: 3,
+          title: "premier 3",
+        },
+      ];
+
+      let sumArray = [...megogo, ...premier];
+      let res = []
+      for (let i = 0; i <= sumArray?.length; i++) {
+        // console.log({...sumArray[i], sort: i});
+        // sumArray.push({...sumArray[i], sort: i})
+      }
+    //   sumArray.sort(function (a, b) {
+    //     if (a.id > b.id) {
+    //       return 1;
+    //     }
+    //     if (a.id < b.id) {
+    //       return -1;
+    //     }
+    //     // a должно быть равным b
+    //     return 0;
+    //   });
+      console.log(sumArray);
+    </script>
+  </body>
+</html>

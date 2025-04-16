@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    /* background-image: url("./maxresdefault.jpg"); */
+    width: 50vw;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: radial-gradient(ellipse at center, red, yellow);
+    margin: 0 auto;
+    
+    
+    border: 1px solid green;
+    border-top: 1px solid red;
+    border-bottom: 2px solid yellow;
+    
+}
+div:hover {
+
+}
+
+button {
+    padding: 12px 25px;
+    background-color: transparent;
+    border: 1px solid greenyellow;
+}
+
+button:hover {
+    background-color: greenyellow;
+}

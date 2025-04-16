@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    
+
+<script>
+    function checkSize (ar1, ar2) {
+        const sizes = { S: 1, M: 2, L: 3 }
+
+        let left = 0
+        let right = 0
+
+        for (let key in sizes) {
+            if (ar1 === key) left = sizes[key];
+
+            if (ar2 === key) right = sizes[key]
+        }
+
+        return left > right
+    }
+
+    console.log(checkSize("L", "M"));
+</script>
+
+</body>
+</html>
